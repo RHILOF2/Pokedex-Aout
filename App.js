@@ -36,7 +36,7 @@ export default function App() {
         <Text style={{color:"white"}}>Fetch</Text>
       </Pressable>
       
-      {isLoading ? (<Text>Cliquer sur le bouton pour charger les données</Text>) : (
+      {isLoading ? (<Text></Text>) : (
         pokemon.map((p) => (
           <Card
           key={p.name}

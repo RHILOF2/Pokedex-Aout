@@ -17,6 +17,12 @@ const BottomNavigation = () => {
         setIsPressed(false);
     };
 
+    const LinkHome = () => {
+      navigation.navigate('App.js');
+    };
+    const LinkFavoris = () => {
+      navigation.navigate('App.js');
+    };
     return (
       <View style={styles.container}>
         <TouchableOpacity 
